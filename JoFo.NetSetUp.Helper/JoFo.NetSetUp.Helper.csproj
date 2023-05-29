@@ -4,6 +4,15 @@
         <TargetFramework>net6.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
+        <Title>JoFo.NetSetUp.Helper</Title>
+        <Authors>JoFo</Authors>
+        <Description>This project is a .NET class library developed in C# that serves as a helpful tool for creating programs. It contains
+several small helper functions to simplify the development process.</Description>
+        <PackageProjectUrl>https://github.com/JoFo-IT/JoFo.NetSetUp.Helper</PackageProjectUrl>
+        <PackageIcon>LogoNuget.png</PackageIcon>
+        <RepositoryUrl>https://github.com/JoFo-IT/JoFo.NetSetUp.Helper</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <PackageReleaseNotes>Init</PackageReleaseNotes>
     </PropertyGroup>
 
     <ItemGroup>
@@ -18,6 +27,14 @@
         <PackageReference Include="Serilog.Settings.Configuration" Version="7.0.0" />
         <PackageReference Include="Serilog.Sinks.Async" Version="1.5.0" />
         <PackageReference Include="Serilog.Sinks.Console" Version="4.1.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Include="..\Logo\LogoNuget.png">
+        <Pack>True</Pack>
+        <PackagePath></PackagePath>
+        <Link>LogoNuget.png</Link>
+      </None>
     </ItemGroup>
 
 </Project>
