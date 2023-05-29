@@ -1,3 +1,5 @@
+![](./Logo/repository-open-graph.png)
+
 # JoFo.NetSetUp.Helper
 
 ## Project description
